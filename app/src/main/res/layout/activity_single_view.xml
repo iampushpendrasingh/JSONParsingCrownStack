@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3E5F5"
+    tools:context="com.iampushpendra.jsonwork.SingleViewActivity">
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/artworkUrl30"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/trackName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/artworkUrl30"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/artistName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/trackName"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/primaryGenreName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/artistName"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/trackPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/primaryGenreName"
+        android:layout_centerHorizontal="true" />
+
+    <!-- <TextView
+         android:id="@+id/currency"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/trackPrice"
+         android:layout_centerHorizontal="true" />-->
+
+    <TextView
+        android:id="@+id/releaseDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/trackPrice"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/releaseDate"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
